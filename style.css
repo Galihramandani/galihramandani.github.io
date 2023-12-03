@@ -1,57 +1,114 @@
-margin: 0
+*
 
-border-box;
+{
 
-3
 
-tody display: flex;
+margin: 0;
+
+padding: 0;
+
+
+box sizing: border-box;
+
+
+}
+
+
+body display: flex;
 
 justify-content: center;
 
 align-items: center;
 
-sin-height: 380vn
+min-height: 100vh;
 
 backgrounds whitespoke
 
-font-family: Verdana, Gems, Tans-serif;
+font-family: Verdana, Geneva, Tahoma, Sans-serif;
+
+}
+
+
+.gif {
 
 height: 100%;
 
-wulth: 100%;
+width: 100%;
 
-3
+}
 
-test-altom center;
 
-funt-size: 1.5em
+.h2 {
 
-margin: 10px;
+test-align: center;
 
-with 100%
+font-size: 1.5cm;
 
-height: 30px display: flex;
+color: 8e94d58;
 
-justify-content surgin-top: ра
+margin: 15px 0;
 
-buttar
+}
 
-position: absolute Worth: 15p
 
-height: inherit
+.btn-group {
 
-cxlers unite
+width 100%
 
-font-size: 1.Zem
+height: 50px 
 
-Bareer-rattus pe suttines nenes
+display: flex;
 
-cursors suinter bex-shadow: 1px 4px gray
+justify-content: center;
 
-border: 2px solid #944581
+margin-top: 50px;
 
-hunt-size: 1.2em;
+}
 
-margin-left: 200p backgrounit: 58:
 
-margin-right: -200 backgrounits we
+button {
+
+position: absolute;
+
+Width: 150px;
+
+height: inherit;
+
+colors: white;
+
+font-size: 1,2cm;
+
+Border-radius: 30px;
+
+outline: none;
+
+cursors: pointer;
+
+box-shadow: 0  2px 4px gray;
+
+border: 2px solid #e94d58;
+
+font-size: 1,2cm;
+
+}
+
+
+button:nth-child(1) {
+
+margin-left: -200px;
+
+background: #e94d58;
+
+}
+
+
+button:nth-child(1) {
+
+margin-right: -200px;
+
+background: white;
+
+color: #e94d58;
+
+}
+
